@@ -38,6 +38,8 @@ public class TestBrowser {
 		System.out.println(driver.getTitle());
 		
 		System.out.println(driver.getCurrentUrl());
+		System.out.println(driver.getCurrentUrl());
+		System.out.println(driver.getCurrentUrl());
 		
 		//System.out.println(driver.getPageSource());
 		

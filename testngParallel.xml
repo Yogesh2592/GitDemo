@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Parallel Suite" parallel = "tests">
+	<test name="Test Parallel1"> 
+
+		<parameter name="browser" value="Chrome"></parameter>
+		<parameter name="url" value="Paytm.com"></parameter>
+		<classes>
+			<class name="TestNG.TestParallel" />
+
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Test Parallel2">
+
+		<parameter name="browser" value="Chrome"></parameter>
+		<parameter name="url" value="Paytm.com"></parameter>
+		<classes>
+			<class name="TestNG.TestParallel" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

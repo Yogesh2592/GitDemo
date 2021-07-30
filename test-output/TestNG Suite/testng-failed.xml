@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG Suite]">
+  <test name="Test2(failed)">
+    <classes>
+      <class name="TestNG.TestCase1">
+        <methods>
+          <include name="closeDBConnection"/>
+          <include name="closeBrowser"/>
+          <include name="createDBConnection"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- TestNG.TestCase1 -->
+      <class name="TestNG.TestCase2">
+        <methods>
+          <include name="validateTitle"/>
+        </methods>
+      </class> <!-- TestNG.TestCase2 -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test name="Test3(failed)">
+    <classes>
+      <class name="TestNG.TestCase3">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- TestNG.TestCase3 -->
+      <class name="TestNG.TestCase1">
+        <methods>
+          <include name="closeDBConnection"/>
+          <include name="closeBrowser"/>
+          <include name="createDBConnection"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- TestNG.TestCase1 -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+</suite> <!-- Failed suite [TestNG Suite] -->

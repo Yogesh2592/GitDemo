@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Parallel Suite]">
+  <test name="Test Parallel1(failed)">
+    <classes>
+      <class name="TestNG.TestParallel">
+        <methods>
+          <include name="dologin"/>
+        </methods>
+      </class> <!-- TestNG.TestParallel -->
+    </classes>
+  </test> <!-- Test Parallel1(failed) -->
+  <test name="Test Parallel2(failed)">
+    <classes>
+      <class name="TestNG.TestParallel">
+        <methods>
+          <include name="dologin"/>
+        </methods>
+      </class> <!-- TestNG.TestParallel -->
+    </classes>
+  </test> <!-- Test Parallel2(failed) -->
+</suite> <!-- Failed suite [Test Parallel Suite] -->

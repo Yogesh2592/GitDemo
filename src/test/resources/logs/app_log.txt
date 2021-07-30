@@ -1,0 +1,7 @@
+INFO    2021-05-30 00:03:55,996 [main] TestProperties_keyWord  - Firefox browser has been launched
+INFO    2021-05-30 00:03:57,147 [main] TestProperties_keyWord  - Navigated to Test URL: https://www.facebook.com/
+INFO    2021-05-30 00:03:57,218 [main] TestProperties_keyWord  - Typing in an Element : FB_username_XPATH entered value as : 9654478317
+INFO    2021-05-30 00:03:57,252 [main] TestProperties_keyWord  - Typing in an Element : FB_password_XPATH entered value as : 9811509821
+INFO    2021-05-30 00:04:00,239 [main] TestProperties_keyWord  - Clicking on an Element : FB_signInBtn_XPATH
+INFO    2021-05-30 00:04:00,239 [main] TestProperties_keyWord  - Execution has been completed...!!!
+INFO    2021-05-30 00:04:00,528 [main] TestProperties_keyWord  - Screenshot has been captured...!!!
